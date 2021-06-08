@@ -7,3 +7,5 @@ var hotel = {
         return this.quartos - this.reservados;
     }
 }
+
+var total = (40)
