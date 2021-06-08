@@ -1,0 +1,24 @@
+header {
+    font-size: x-large;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+}
+
+body {
+    background-image: url(img/hoteis-cinco-estrelas-na-india-19.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.hotel {
+    vertical-align: center;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
