@@ -8,4 +8,15 @@ var hotel = {
     }
 }
 
-var total = (40)
+var total = (40);
+var reservado = (1);
+var resultado = total - reservado;
+
+var subResultado = document.getElementById('total');
+subResultado.textContent += hotel.quartos;
+
+var subResultado = document.getElementById('reservado');
+subResultado.textContent += hotel.reservados;
+
+var subResultado = document.getElementById('resultado');
+subResultado.textContent -= resultado;
