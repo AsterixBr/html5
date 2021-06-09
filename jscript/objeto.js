@@ -3,20 +3,28 @@ var hotel = {
     quartos: 40,
     reservados: 25,
     academia: true,
-    cehcaDisponibilidade: function() {
+    checaDisponibilidade: function() {
         return this.quartos - this.reservados;
     }
 }
 
-var total = (40);
-var reservado = (1);
-var resultado = total - reservado;
 
-var subResultado = document.getElementById('total');
+var subResultado = document.getElementById('quartos');
 subResultado.textContent += hotel.quartos;
 
-var subResultado = document.getElementById('reservado');
-subResultado.textContent += hotel.reservados;
+//var subResultado = document.getElementById('reservados');
+//subResultado.textContent += hotel.reservados;
 
-var subResultado = document.getElementById('resultado');
-subResultado.textContent -= resultado;
+function btnReserva() {
+    hotel.reservados--;
+    mostrar(hotel.reservados);
+}
+
+function mostrar(valor) {
+
+    if (hotel.reservados > 0) {
+        document.getElementById("reservados").innerHTML = valor;
+    } else {
+        document.getElementById("reservados").innerHTML = 'Não há Vagas';
+    }
+}
