@@ -36,3 +36,24 @@ body {
     color: white;
     width: 200px;
 }
+
+.contato {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.formulario input,
+textarea {
+    width: 40%;
+    border: 2px solid #215587;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
