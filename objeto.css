@@ -25,7 +25,7 @@ body {
     color: white;
 }
 
-div {
+.flash {
     background-color: black;
     width: 200px;
     margin: 0 auto;
@@ -34,6 +34,5 @@ div {
 .dstyll {
     background-color: black;
     color: white;
+    width: 200px;
 }
-
-.left {}
