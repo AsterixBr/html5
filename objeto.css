@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    background-image: url(img/hoteis-cinco-estrelas-na-india-19.jpeg);
+    background-image: url(img/hotel.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -59,4 +59,8 @@ textarea {
     background-color: white;
     width: 200px;
     margin: 0 auto;
+}
+
+.formulario input[type="radio"] {
+    width: auto;
 }
