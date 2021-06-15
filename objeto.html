@@ -21,11 +21,11 @@
             <label>Café da manhã incluso e Wifi</label>
             <br>
             <label id="suite">Quartos:</label><br>
-            <input type="radio" name="suite" value="2 hóspedes" required>
+            <input type="radio" name="suite" value="2 hóspedes" checked>
             <label for="radio">2 hóspedes</label>
-            <input type="radio" name="suite" value="3 hóspedes" required>
+            <input type="radio" name="suite" value="3 hóspedes">
             <label for="radio">3 hóspedes</label>
-            <input type="radio" name="suite" value="4 hóspedes" required>
+            <input type="radio" name="suite" value="4 hóspedes">
             <label for="radio">4 hóspedes</label>
             <br>
             <label for="nome">Nome:</label>
@@ -51,6 +51,15 @@
             <label for="senha">Senha:</label>
             <br>
             <input type="password" minlength="8" name="senha">
+            <br>
+            <label for="especial">Atendimento especial</label>
+            <br>
+            <select name="especial">
+            <option value="Não">Não</option>
+            <option value="Deficiente auditivo">Deficiente auditivo</option>
+            <option value="Mais de 65 anos">Mais de 65 anos</option>
+            <option value="Cadeirante">Cadeirante</option>
+        </select>
             <br>
             <input type="submit" value="Enviar">
         </div>
